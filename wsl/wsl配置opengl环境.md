@@ -20,9 +20,7 @@ sudo apt install libxxf86vm-dev
 ```
 
 ## 安装图行界面
-windowsx端下载安装VcXsrv`https://sourceforge.net/projects/vcxsrv/`
-
-wsl中`~/.bashrc`中添加`export DISPLAY=$WINDOW_IP:0.0`
+windowsx端下载安装VcXsrv`https://sourceforge.net/projects/vcxsrv/ 
 
 注：在wsl2中属于远程连接，在VcXsrv中的Extra settings中勾选 `Disable access control`
 

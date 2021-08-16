@@ -14,6 +14,10 @@ sudo ldconfig -p | grep GL
 ```
 sudo apt install libfreetype6-dev
 ```
+## 提示没有-lXxf86vm
+```
+sudo apt install libxxf86vm-dev
+```
 
 ## 安装图行界面
 windowsx端下载安装VcXsrv`https://sourceforge.net/projects/vcxsrv/`

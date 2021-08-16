@@ -24,7 +24,7 @@ windowsx端下载安装VcXsrv`https://sourceforge.net/projects/vcxsrv/`
 ```
 #ip在windows的cmd中使用ipconfig查看，找到输入wsl的网卡的ip地址，port填0
 #windows ip使用命令替代
-export WINDOW_IP=`cat /etc/resolv.conf | grep nameserver | awk 'print $2'`
+export WINDOW_IP=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null)
 export DISPLAY=ip:port.0
 #wls中安装想x11-apps测试x11是否正常
 sudo apt install x11-apps mesa-utils

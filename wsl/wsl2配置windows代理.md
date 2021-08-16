@@ -21,7 +21,9 @@ case $1 in
         ;;
 esac
 ```
-在`~/.bashrc`文件中加入`alias proxy="source ~/.bin/set-wsl2-proxy.sh"`。注：请填入具体脚本的路径，使用`chmod +x`给建立的脚本添加可执行权限
+在`~/.bashrc`文件中加入`alias proxy="source ~/.bin/set-wsl2-proxy.sh"`
+
+注：请填入具体脚本的路径，使用`chmod +x`给建立的脚本添加可执行权限
 
 
 
